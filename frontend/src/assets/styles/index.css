@@ -1884,6 +1884,14 @@ progress {
     --bs-gutter-y: 3.6rem;
   }
 }
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
