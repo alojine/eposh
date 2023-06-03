@@ -1,0 +1,31 @@
+{
+  "name": "mern-shop",
+  "version": "1.0.0",
+  "description": "eCommerce app build with the MERN stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alojine/proshop.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alojine/proshop/issues"
+  },
+  "homepage": "https://github.com/alojine/proshop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0",
+    "dotenv": "^16.1.3",
+    "nodemon": "^2.0.22"
+  }
+}
